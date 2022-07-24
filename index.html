@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <script defer src="./index.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <input class="input" oninput="generate()" id="title">Embed Title
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="input" oninput="generate()" id="description">Embed Description
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="input" oninput="generate()" type="color" id="color">Embed Color
+                </td>
+            </tr>
+        </table>
+        <div id="output">
+            <p>
+                embed = discord.Embed()
+            </p>
+        </div>
+    </body>
+</html>
